@@ -5,21 +5,24 @@ TARGET_SCREEN_WIDTH := 1080
 # Release name
 PRODUCT_RELEASE_NAME := dlx
 
+# Inherit some common deso stuff.
+$(call inherit-product, vendor/deso/config/telephony.mk)
+
 # overlays
 PRODUCT_PACKAGE_OVERLAYS += device/htc/dlx/overlay
 
-# Inherit some common CM stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
-
 # Enhanced NFC
-$(call inherit-product, vendor/cm/config/nfc_enhanced.mk)
+$(call inherit-product, vendor/deso/config/nfc_enhanced.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/htc/dlx/full_dlx.mk)
 
+# Inherit some common Desolation stuff.
+$(call inherit-product, vendor/deso/config/common.mk)
+
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := dlx
-PRODUCT_NAME := cm_dlx
+PRODUCT_NAME := deso_dlx
 PRODUCT_BRAND := Verizon
 PRODUCT_MODEL := HTC6435LVW
 PRODUCT_MANUFACTURER := HTC
