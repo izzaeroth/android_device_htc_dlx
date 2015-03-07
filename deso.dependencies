@@ -10,5 +10,9 @@
     "repository": "android_device_htc_msm8960-common",
     "target_path": "device/htc/msm8960-common",
 	"revision": "cm-12.0"
+  },
+  {
+    "repository": "proprietary_vendor_htc",
+    "target_path": "vendor/htc"
   }
 ]
