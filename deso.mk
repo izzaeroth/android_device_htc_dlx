@@ -6,7 +6,7 @@ TARGET_SCREEN_WIDTH := 1080
 PRODUCT_RELEASE_NAME := dlx
 
 # Inherit some common deso stuff.
-$(call inherit-product, vendor/deso/config/telephony.mk)
+$(call inherit-product, vendor/deso/config/common_phone.mk)
 
 # overlays
 PRODUCT_PACKAGE_OVERLAYS += device/htc/dlx/overlay
