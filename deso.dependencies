@@ -3,17 +3,17 @@
     "remote": "cm",
     "repository": "android_kernel_htc_m7",
     "target_path": "kernel/htc/m7",
-	"revision": "cm-12.0"
+	"revision": "cm-12.1"
   },
   {
     "remote": "cm",
     "repository": "android_device_htc_msm8960-common",
     "target_path": "device/htc/msm8960-common",
-	"revision": "cm-12.0"
+	"revision": "cm-12.1"
   },
   {
     "repository": "proprietary_vendor_htc",
     "target_path": "vendor/htc",
-    "revision": "cm-12.0"
+    "revision": "cm-12.1"
   }
 ]
