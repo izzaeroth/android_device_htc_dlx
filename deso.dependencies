@@ -13,7 +13,7 @@
   },
   {
     "remote": "gh",
-    "repository": "TheMuppets/proprietary_vendor_htc",
+    "repository": "izzaeroth/proprietary_vendor_htc",
     "target_path": "vendor/htc",
     "revision": "cm-12.1"
   }
