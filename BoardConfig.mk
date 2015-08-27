@@ -45,7 +45,7 @@ BOARD_KERNEL_BASE := 0x80600000
 BOARD_KERNEL_PAGESIZE := 2048
 BOARD_KERNEL_CMDLINE := console=ttyHSL0,115200,n8 androidboot.hardware=dlx user_debug=0 androidboot.selinux=permissive
 BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x01800000
-TARGET_KERNEL_CONFIG := cyanogenmod_dlx_defconfig
+TARGET_KERNEL_CONFIG := funkna_defconfig
 TARGET_KERNEL_SOURCE := kernel/htc/m7
 
 # Build optimizations
@@ -53,6 +53,10 @@ OPT_MEMORY := true
 TARGET_USE_O3 := true
 STRICT_ALIASING := true
 SUPPRES_UNUSED_WARNING := true
+
+# Custom toolchains
+TARGET_GCC_VERSION_ARM := arm-eabi-4.9-ln
+TARGET_KERNEL_TC_SUFFIX := arm-cortex_a15-linux-gnueabihf-
 
 # Audio
 BOARD_USES_FLUENCE_INCALL := true
