@@ -1,9 +1,9 @@
 [
   {
-    "remote": "cm",
-    "repository": "android_kernel_htc_m7",
+    "remote": "gh",
+    "repository": "izzaeroth/FunkNA-KERNEL",
     "target_path": "kernel/htc/m7",
-	"revision": "cm-12.1"
+	"revision": "lp5.1"
   },
   {
     "remote": "cm",
