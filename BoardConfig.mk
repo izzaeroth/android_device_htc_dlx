@@ -99,7 +99,6 @@ BOARD_SEPOLICY_UNION += \
     device.te \
     drmserver.te \
     file_contexts \
-    file.te \
     hcheck.te \
     healthd.te \
     init.te \
