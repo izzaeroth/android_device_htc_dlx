@@ -10,11 +10,5 @@
     "repository": "android_device_htc_msm8960-common",
     "target_path": "device/htc/msm8960-common",
 	"revision": "cm-12.1"
-  },
-  {
-    "remote": "gh",
-    "repository": "TheMuppets/proprietary_vendor_htc",
-    "target_path": "vendor/htc",
-    "revision": "cm-12.1"
   }
 ]
