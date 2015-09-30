@@ -17,9 +17,6 @@ $(call inherit-product, vendor/deso/config/nfc_enhanced.mk)
 # Inherit device configuration
 $(call inherit-product, device/htc/dlx/full_dlx.mk)
 
-# Inherit some common Desolation stuff.
-$(call inherit-product, vendor/deso/config/common.mk)
-
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := dlx
 PRODUCT_NAME := deso_dlx
