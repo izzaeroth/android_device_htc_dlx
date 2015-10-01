@@ -109,7 +109,7 @@ PRODUCT_COPY_FILES += \
 
 # Audio
 PRODUCT_PACKAGES += \
-	audio_amplifier.msm8960
+	libaudioamp
 
 # Camera
 PRODUCT_PACKAGES += \
